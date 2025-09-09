@@ -1,12 +1,54 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Todo App
 
-Currently, two official plugins are available:
+This is a simple Todo List application built with React and Vite. You can add tasks to your list and see them displayed instantly. The project uses modern React features and Vite for fast development and build.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add tasks to your todo list
+- Instant updates with React state
+- Minimal and clean UI
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js and npm installed
+
+### Installation
+1. Clone the repository:
+	```bash
+	git clone https://github.com/chintanbawa/react-todo-mini.git
+	cd react-todo-mini
+	```
+2. Install dependencies:
+	```bash
+	npm install
+	```
+
+### Running the App
+Start the development server:
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+### Building for Production
+To build the app for production:
+```bash
+npm run build
+```
+The output will be in the `dist` folder.
+
+### Linting
+To check code quality:
+```bash
+npm run lint
+```
+
+## Project Structure
+- `src/App.jsx`: Main React component for the Todo app
+- `src/assets/`: Static assets
+- `public/`: Public files
+- `vite.config.js`: Vite configuration
+
+## License
+MIT
